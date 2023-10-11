@@ -15,7 +15,7 @@ admin_id = 6236332524
 async def delete_messages_with_hashtag(event):
     # Check if the message is in the specified group and from an admin
     print(event.chat_id)
-    if event.chat_id == -1001234567890 and event.sender_id == admin_id and "#" in event.message.text:
+    if event.chat_id == -1001856065462 and event.sender_id == admin_id and "#" in event.message.text:
         # Delete the message
         await event.message.delete()
 
